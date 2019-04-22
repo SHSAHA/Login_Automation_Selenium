@@ -1,0 +1,13 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class DashBoardPage {
+	
+	WebDriver driver;//class level webdriver
+	
+	public class DashBoardPage(WebDriver driver)//constructor {
+		
+	}
+
+}

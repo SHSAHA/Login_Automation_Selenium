@@ -1,0 +1,13 @@
+package Tests;
+
+public class Login {
+	
+	// 1. Initialize driver
+	
+	// 2. Enter login information(Login Page)
+	
+	// 3. Get confirmation(Dashboard)
+	
+	// 4. Close the driver
+
+}

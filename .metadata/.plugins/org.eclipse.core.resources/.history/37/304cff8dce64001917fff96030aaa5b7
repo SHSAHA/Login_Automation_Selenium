@@ -1,0 +1,28 @@
+package Tests;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+import pages.LoginPage;
+
+
+public class Login {
+	
+	@Test
+	public void LoginTestPOM() {
+	
+	// 1. Initialize driver
+	WebDriver driver = utilities.DriverFactory.open("Chrome");
+	driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
+	
+	// 2. Enter login information(Login Page)//LoginPage Object
+	LoginPage loginPage = new LoginPage(driver);
+	loginPage setUserName("shaswatasaha24@gmail.com");
+	loginPage setPassword("Fight2liv");
+	
+	// 3. Get confirmation(Dashboard)//Dasboard Object
+	
+	// 4. Close the driver
+	//driver.quit();
+
+}
+}

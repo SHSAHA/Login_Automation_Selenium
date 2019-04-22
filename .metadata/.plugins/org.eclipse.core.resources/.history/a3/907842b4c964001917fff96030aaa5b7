@@ -1,0 +1,20 @@
+package Tests;
+
+import org.openqa.selenium.WebDriver;
+
+public class Login {
+	
+	public void LoginTestPOM() {
+	
+	// 1. Initialize driver
+	WebDriver driver = utilities.DriverFactory.open("Chrome");
+	driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
+	
+	// 2. Enter login information(Login Page)
+	
+	// 3. Get confirmation(Dashboard)
+	
+	// 4. Close the driver
+
+}
+}
